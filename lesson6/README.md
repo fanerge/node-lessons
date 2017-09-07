@@ -193,8 +193,7 @@ var fibonacci = function (n) {
 
 安装一个 istanbul : `$ npm i istanbul -g`
 
-执行 `$ istanbul cover _mocha`
-
+执行 `$ istanbul cover _mocha` // window想运行的话，必须在本地再次安装mocha然后执行istanbul cover node_modules/mocha/bin/_mocha
 这会比直接使用 mocha 多一行覆盖率的输出，
 
 ![](https://raw.githubusercontent.com/alsotang/node-lessons/master/lesson6/3.png)
